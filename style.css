@@ -1,0 +1,83 @@
+.calc{
+ border-radius:50px;
+background-color:rgba(18, 18, 19, 0.877);
+width: 320px;
+padding: 20px;
+height: 500px;
+margin: 0 auto;
+}
+.screen{
+    background-color:rgba(221, 215, 215, 0.781);
+    width: 320px;
+    height: 90px;
+    border-radius: 15px;
+}
+.zero{
+   display: flex;
+   justify-content: flex-end;
+    align-items:flex-end;
+    font-size: 32px;
+    color:rgb(241, 234, 234);
+    height: 90px; 
+}
+.row1{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}   
+.delete,.nill,.percent,.divide{
+border-radius: 56px;
+padding: 20px;
+background-color: rgb(223, 221, 217);
+height: 12px;
+}
+.row2{
+display:flex;
+    justify-content: space-between;
+    padding: 15px;
+
+
+}
+.seven,.eight,.nine,.multiplication{
+border-radius: 56px;
+padding: 20px;
+background-color: rgb(223, 221, 217);
+height: 12px;}
+.row3{
+display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.four,.five,.six,.subtract{
+border-radius: 56px;
+padding: 20px;
+background-color: rgb(223, 221, 217);
+height: 12px;}
+.row4{
+display: flex;
+justify-content: space-between;
+padding: 12px;
+}
+.one,.two,.three,.plus{
+border-radius: 56px;
+padding: 20px;
+background-color: rgb(223,221,217);
+height: 12px;
+}
+.row5{
+display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.zeros,.dot,.equals{
+border-radius: 56px;
+padding: 20px;
+background-color: rgb(223,221,217);
+height: 12px;
+}
+.zeros{
+    width: 100px;
+}
+.divide,.multiplication,.plus,.equals,.subtract{
+  background-color: orange;
+}
